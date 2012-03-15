@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleUUID</key>
+	<string>8C139951-6997-4185-ABB0-0D3596BA657B</string>
+	<key>content</key>
+	<string>class ${TM_FILENAME/(.*?)\..../$1/} extends ${2:Page} {
+	\$singular_name    = "${TM_FILENAME/(.*?)\..../$1/}"
+	\$plural_name      = "${TM_FILENAME/(.*?)\..../$1/}${3:s}"
+	\$icon             = "${4}"
+	\$allowed_children = array("${5:SiteTree}")
+	\$default_child    = "${6}"
+	\$default_parent   = ${7:null}
+	\$can_be_root      = ${8:true}
+	\$hide_ancestor    = ${9:null}
+		db {
+			${10:Varchar(255)}
+				${11:titulo}
+			${11:Tipo_de_variable}
+				${12:una__variable}
+				${13:otra_variable}
+			SS_Datetime
+				Desde
+				Hasta
+		}
+		has_one {
+			Image
+				ImagenOferta
+			ManejadorDeOfertas
+				ManejadorDeOfertas
+		}
+		many_many {
+			Establecimiento
+				Establecimientos
+		}
+</string>
+	<key>name</key>
+	<string>magia parte 1</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>tabTrigger</key>
+	<string>clase</string>
+	<key>uuid</key>
+	<string>CF07168C-669C-496F-AF9F-E54E1084EC54</string>
+</dict>
+</plist>

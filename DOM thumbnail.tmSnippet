@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function getThumbnail() {
+    if (((int) \$this-&gt;${1}ID &gt; 0) &amp;&amp; (is_a(\$this-&gt;${1}(),'Image')))  {
+        return \$this-&gt;${1}()-&gt;CMSThumbnail();
+    } else {
+        return "(sin imagen)" ;
+    }
+}
+</string>
+	<key>name</key>
+	<string>DOM thumbnail</string>
+	<key>tabTrigger</key>
+	<string>domthumb</string>
+	<key>uuid</key>
+	<string>DB24F338-B1EF-4C62-8FA5-C4B36B2863E9</string>
+</dict>
+</plist>

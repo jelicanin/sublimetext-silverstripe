@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$fields-&gt;addFieldToTab("Root.Content.${1}", new FileIframeField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}"),null,null,null,'${4}'),'${5}');</string>
+	<key>name</key>
+	<string>add filefield</string>
+	<key>tabTrigger</key>
+	<string>addff</string>
+	<key>uuid</key>
+	<string>8BB4B522-4E34-4282-AD72-A3274040F0B2</string>
+</dict>
+</plist>

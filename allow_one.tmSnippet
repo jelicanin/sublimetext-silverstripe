@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * We only admit one
+ */
+function canCreate() {
+	if(DataObject::get_one('${TM_FILENAME/(.*?)\..../$1/}')) {
+		return false;
+	} else {
+  		return true;
+	}
+}
+</string>
+	<key>name</key>
+	<string>allow_one</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>aone</string>
+	<key>uuid</key>
+	<string>82E5329E-227A-4A46-A557-B9D76C6B3C1F</string>
+</dict>
+</plist>

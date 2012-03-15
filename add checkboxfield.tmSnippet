@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$fields-&gt;addFieldToTab("Root.Content.${1}", new CheckboxField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}")),'${4}');</string>
+	<key>name</key>
+	<string>add checkboxfield</string>
+	<key>tabTrigger</key>
+	<string>addcb</string>
+	<key>uuid</key>
+	<string>3D463B6D-C41C-4F2D-9ACE-CF32593DE7E7</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$sc = SiteConfig::current_site_config();</string>
+	<key>name</key>
+	<string>SiteConfig</string>
+	<key>tabTrigger</key>
+	<string>siteconfig</string>
+	<key>uuid</key>
+	<string>2B8B5A17-E2AF-4197-8DD8-31813F924240</string>
+</dict>
+</plist>

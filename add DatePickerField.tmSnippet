@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$fields-&gt;addFieldToTab("Root.Content.${1}", new DatePickerField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}")),'${4}');</string>
+	<key>name</key>
+	<string>add DatePickerField</string>
+	<key>tabTrigger</key>
+	<string>adddate</string>
+	<key>uuid</key>
+	<string>7A10C95E-8143-40D6-A2AB-74C990C79F99</string>
+</dict>
+</plist>

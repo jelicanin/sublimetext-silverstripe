@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}")</string>
+	<key>name</key>
+	<string>translate backend</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>trlt</string>
+	<key>uuid</key>
+	<string>F4E4D2D4-B01E-42F2-A882-93671F663A20</string>
+</dict>
+</plist>

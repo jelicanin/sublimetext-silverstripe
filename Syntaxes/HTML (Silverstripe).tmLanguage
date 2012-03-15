@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ss</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>&lt;%\s[^end].*\s%&gt;</string>
+	<key>foldingStopMarker</key>
+	<string>&lt;%\send.*\s%&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^~@h</string>
+	<key>name</key>
+	<string>HTML (Silverstripe)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>&lt;%+(?!&gt;)[-=]?</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.embedded.ruby</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>-?%&gt;</string>
+			<key>name</key>
+			<string>keyword.control.ss</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.ruby</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(#).*?(?=-?%&gt;)</string>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>source.ruby.rails</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\$[a-zA-Z0-9\.]*</string>
+			<key>name</key>
+			<string>variable.ss</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.ss</string>
+	<key>uuid</key>
+	<string>45309872-CDF0-44B4-AA5D-6928135DD760</string>
+</dict>
+</plist>

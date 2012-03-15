@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+class Page extends SiteTree {
+
+	static \$singular_name = "${TM_FILENAME/(.*?)\..../$1/}";
+	static \$plural_name = "${TM_FILENAME/(.*?)\..../$1/}s";
+	static \$icon = "${4}";
+	static \$allowed_children = array("${5:SiteTree}"); // set to string "none" or array of classname(s)
+	static \$default_child = "${6}"; //one classname
+	static \$default_parent = ${7:null}; // NOTE: has to be a URL segment NOT a class name
+	static \$can_be_root = ${8:true}; //
+	static \$hide_ancestor = ${9:null}; //dont show ancestry class
+	${0}
+	static \$db = array(
+		
+	);
+}
+
+class Page_Controller extends ContentController {
+
+}</string>
+	<key>name</key>
+	<string>Silverstripe Page Class</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>68D4299C-2F78-4E49-ACAD-6F1FA004BFBB</string>
+</dict>
+</plist>

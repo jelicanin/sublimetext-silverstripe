@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+class ${TM_FILENAME/(.*?)\..../$1/} extends DataObject {
+
+	static \$singular_name = "${TM_FILENAME/(.*?)\..../$1/}";
+	static \$plural_name = "${TM_FILENAME/(.*?)\..../$1/}s";
+	${0}
+	static \$db = array(
+		
+	);
+}
+</string>
+	<key>name</key>
+	<string>Silverstripe DataObject Class</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>17D0D680-46A9-401F-A0A7-416B70159DC5</string>
+</dict>
+</plist>

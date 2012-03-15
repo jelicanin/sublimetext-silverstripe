@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${TM_FILENAME/(.*?)\..../$1/}_Controller extends ${1}_Controller{
+
+	function init(){
+		parent::init();
+		${0}
+	}
+
+}</string>
+	<key>name</key>
+	<string>controller</string>
+	<key>tabTrigger</key>
+	<string>ctr</string>
+	<key>uuid</key>
+	<string>1C958A83-BD63-4EDF-9460-290AB963C45E</string>
+</dict>
+</plist>

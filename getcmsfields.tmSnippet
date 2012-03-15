@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function getCMSFields() {
+	\$fields = parent::getCMSFields();
+	${0}
+	return \$fields;
+}</string>
+	<key>name</key>
+	<string>getcmsfields</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>gcf</string>
+	<key>uuid</key>
+	<string>84BD0159-53C7-48E9-AB63-ECACC150B7FB</string>
+</dict>
+</plist>

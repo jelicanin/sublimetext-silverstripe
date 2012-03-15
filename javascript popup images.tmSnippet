@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;a href="&lt;% if Orientation = 1 %&gt;&lt;% control SetHeight(600) %&gt;$URL&lt;% end_control %&gt;&lt;% else_if Orientation = 2 %&gt;&lt;% control SetWidth(900) %&gt;$URL&lt;% end_control %&gt;&lt;% else %&gt;&lt;% control SetWidth(900) %&gt;$URL&lt;% end_control %&gt;&lt;% end_if %&gt;" class="colorbox" rel="colorbox"&gt;
+	&lt;img src="&lt;% control CroppedImage(95,95) %&gt;$URL&lt;% end_control %&gt;"/&gt;
+&lt;/a&gt;	
+</string>
+	<key>name</key>
+	<string>javascript popup images</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>jpopup</string>
+	<key>uuid</key>
+	<string>849FB3F1-3090-4AC0-A899-F1AC72F45C85</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Object::useCustomClass('${1:OldClass}', '${2:NewClass}');</string>
+	<key>name</key>
+	<string>custom class</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>cc</string>
+	<key>uuid</key>
+	<string>EE0F1FE7-9772-4814-9908-2E247E78DB05</string>
+</dict>
+</plist>

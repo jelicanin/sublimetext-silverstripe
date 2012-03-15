@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>if grep &lt;&lt;&lt;${TM_CURRENT_WORD:-!} -Esq '[a-zA-Z0-9_]+'
+	then exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=http://doc.silverstripe.com/doku.php?id=built-in-page-controls&amp;s=$TM_CURRENT_WORD'&gt;"
+	else echo "Nothing to lookup (hint: place the caret on a function name)"
+fi</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^h</string>
+	<key>name</key>
+	<string>Documentation for Word (doc.silverstripe.com)</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>uuid</key>
+	<string>C1254E60-8469-4D8B-BD29-6E0DDC271DE8</string>
+</dict>
+</plist>

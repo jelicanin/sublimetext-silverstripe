@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="&lt;% control ${1} %&gt;&lt;% control CroppedImage(${2},${3}) %&gt;\$URL&lt;% end_control %&gt;&lt;% end_control %&gt;" alt="\$Title"/&gt;</string>
+	<key>name</key>
+	<string>croppedImage</string>
+	<key>tabTrigger</key>
+	<string>cropped</string>
+	<key>uuid</key>
+	<string>361910DA-54E1-43E8-84FC-A451DCB5D086</string>
+</dict>
+</plist>

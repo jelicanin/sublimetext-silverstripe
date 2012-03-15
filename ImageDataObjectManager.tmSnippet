@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1} = new ImageDataObjectManager(
+	\$this,
+	'${1}s',
+	'${1}',
+	'${2}Image',
+	array(
+		${0}
+	),
+	'getCMSFields_forPopup'
+);
+\$fields-&gt;addFieldToTab( 'Root.Content.${1}s', \$${1} );		
+</string>
+	<key>name</key>
+	<string>ImageDataObjectManager</string>
+	<key>tabTrigger</key>
+	<string>idom</string>
+	<key>uuid</key>
+	<string>35E60F89-EDB7-44F0-A4BD-02A1DC3C6FF2</string>
+</dict>
+</plist>

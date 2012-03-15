@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;% sprintf(_t('${TM_FILENAME/(.*?)\.../$1/}.${1:uppercased word to translate}','${2:english sentence}%s'),${3:variable name}) %&gt;</string>
+	<key>name</key>
+	<string>translate front sprintf</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>tabTrigger</key>
+	<string>sprintf</string>
+	<key>uuid</key>
+	<string>B77048A7-B14A-490F-AB57-A7C7EAB60A82</string>
+</dict>
+</plist>

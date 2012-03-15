@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1} = new DataObjectManager(
+	\$this,
+	'${1}s',
+	'${1}',
+	array(
+		${0}
+	),
+	'getCMSFields_forPopup'
+);
+\$fields-&gt;addFieldToTab( 'Root.Content.${1}s', \$${1} );		
+</string>
+	<key>name</key>
+	<string>DataObjectManager</string>
+	<key>tabTrigger</key>
+	<string>dom</string>
+	<key>uuid</key>
+	<string>BF5CA188-52D5-4ABF-BC56-4378B491F216</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>static \$belongs_many_many = array(
+	'${1}s' =&gt; '${2}',
+);</string>
+	<key>name</key>
+	<string>belongs_many_many</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>mm</string>
+	<key>uuid</key>
+	<string>197A0EFD-5F2B-4113-B4D4-25EA096AAFBF</string>
+</dict>
+</plist>

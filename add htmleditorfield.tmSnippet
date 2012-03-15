@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$fields-&gt;addFieldToTab("Root.Content.${1}", new HTMLEditorField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}")),'${4}');</string>
+	<key>name</key>
+	<string>add htmleditorfield</string>
+	<key>tabTrigger</key>
+	<string>addhtml</string>
+	<key>uuid</key>
+	<string>372F8F72-E3E5-40EF-81D9-B4B216F49597</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Object::add_extension('${1:What you are extending}','${2:The extension}');
+</string>
+	<key>name</key>
+	<string>class extension</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>ext</string>
+	<key>uuid</key>
+	<string>505AA75F-5C6A-482C-A56A-EF04D0836497</string>
+</dict>
+</plist>

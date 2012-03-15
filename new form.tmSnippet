@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$fields = new FieldSet(
+	${0}
+);
+\$actions = new FieldSet(new FormAction("${2:ActionName}", "${3:action button name}"));
+\$required = new RequiredFields(${4:List the required fields here: "Email", "FirstName"});
+
+return new Form(\$this, "${1:FunctionFormName}", \$fields, \$actions,\$required);
+
+</string>
+	<key>name</key>
+	<string>new form</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>34FC75CB-D4C9-46E4-AB69-3C01114DECB9</string>
+</dict>
+</plist>

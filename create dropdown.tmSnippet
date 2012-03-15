@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1}Provider = array(
+	${0}
+);
+		
+\$${1} = new DropdownField('${2}','${3}',\$${1}Provider);
+\$${1}-&gt;setEmptyString("${4}");
+</string>
+	<key>name</key>
+	<string>create dropdown</string>
+	<key>tabTrigger</key>
+	<string>newdd</string>
+	<key>uuid</key>
+	<string>C9BA2C64-C354-4FE1-8A2E-EB5B3DD0B1EA</string>
+</dict>
+</plist>

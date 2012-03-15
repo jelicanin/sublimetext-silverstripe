@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$foldername = Director::getAbsFile('assets/${TM_FILENAME/(.*?)\..../$1/}s/');
+FileSystem::makeFolder(\$foldername);
+
+\$uploadify = new FileUploadField('${2}', _t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}','${3}'), array (
+	'uploadFolder' =&gt; 'assets/${TM_FILENAME/(.*?)\..../$1/}s/',
+	'allowFolderSelection' =&gt; false
+));
+
+${0}
+</string>
+	<key>name</key>
+	<string>new filefield uploadify</string>
+	<key>tabTrigger</key>
+	<string>newfuf</string>
+	<key>uuid</key>
+	<string>6E9CB238-6E5F-4DFA-ADBE-0DB71D39BE21</string>
+</dict>
+</plist>

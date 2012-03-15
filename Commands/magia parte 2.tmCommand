@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>bundleUUID</key>
+	<string>8C139951-6997-4185-ABB0-0D3596BA657B</string>
+	<key>command</key>
+	<string>#!/usr/local/Cellar/ruby/1.9.2-p136/bin/ruby
+# encoding: utf-8
+# Constantes separadas por grupos
+class Nivel
+	Buscando_Clase               = 0
+	Declarando_Atributo          = 1
+	Nombre_del_Arreglo           = 2
+	Almacenando_Tipo_de_Variable = 3
+	Creando_Variable             = 4
+end
+
+# Todo el documento se separa en un arreglo de hashes de este estilo:
+# {:nivel =&gt; el nivel de indentación, :data =&gt; todo el resto de texto}
+raw = []
+
+STDIN.lines.inject(raw) do |mem, e|
+	mem &lt;&lt; {:nivel =&gt; e.count("\t"), :data =&gt; e.strip}
+end
+
+# Que feo esto, pero hay que ponerlo
+puts "&lt;?php"
+
+# Memorias para después
+datos_para_el_formulario = []
+nombre_de_la_clase       = ""
+
+# Memorias para niveles hijos de indentacion
+tipo_de_variable = ""
+
+def whiteSpacePadding (string, ancho)
+	cantidad_de_espacios = ancho - string.length
+	if cantidad_de_espacios &gt; 0
+		" " * (ancho - string.length)
+	else
+		""
+	end
+end
+
+# Que hacer por cada nivel de indentacion
+raw.each do |cmd|
+	case cmd[:nivel]
+	when Nivel::Buscando_Clase
+		puts "class " + cmd[:data] + " {"
+			nombre_de_la_clase = cmd[:data].split(" ")[1]
+		
+	when Nivel::Declarando_Atributo
+		puts "\t" + cmd[:data] + ";"
+		
+	when Nivel::Nombre_del_Arreglo
+		if cmd[:data] =~ /^}.*/
+			puts "\t);"
+		else
+			puts ""
+			puts "\tstatic $#{cmd[:data].split(" ").first} = array ("
+		end
+		
+	when Nivel::Almacenando_Tipo_de_Variable
+		tipo_de_variable = cmd[:data]
+		
+	when Nivel::Creando_Variable
+		nombre_variable, *el_resto = cmd[:data].split(" ")
+		texto = el_resto.join(" ")
+		puts "\t\t'#{nombre_variable}'#{whiteSpacePadding(nombre_variable, 20)}=&gt; '#{tipo_de_variable}'#{whiteSpacePadding(tipo_de_variable, 20)},"
+		datos_para_el_formulario &lt;&lt; {:variable =&gt; nombre_variable, :tipo =&gt; tipo_de_variable, :texto =&gt; texto}
+	end
+end
+
+hash_de_tipo_a_clase_de_formulario = {
+	"Varchar(255)" =&gt; "TextField"       ,
+	"HTMLText"     =&gt; "T"     ,
+	"SS_Datetime"  =&gt; "DatePickerField" ,
+	"Image"        =&gt; "ImageUploadField",
+	"Image"        =&gt; "ImageUploadField",
+}
+
+puts ""
+puts "\tpublic function getCMSFields_forPopup () {"
+puts "\t\t$f = new FieldSet ("
+datos_para_el_formulario.each do |dato|
+	f = hash_de_tipo_a_clase_de_formulario[dato[:tipo]]
+	if f != nil
+		mayusculas = dato[:variable].upcase
+		puts "\t\t\tnew #{f+whiteSpacePadding(f, 20)}('#{dato[:variable]}'#{whiteSpacePadding(dato[:variable], 14)}, _t('#{nombre_de_la_clase}.#{mayusculas}'#{whiteSpacePadding(mayusculas, 14)}, '#{dato[:texto]}')),"
+	end
+end
+puts "\t\t);"
+puts "\t}"
+puts "}"
+</string>
+	<key>fallbackInput</key>
+	<string>scope</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>magia parte 2</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>uuid</key>
+	<string>70C3CAA7-335E-475B-A620-1A46C77D2C45</string>
+</dict>
+</plist>

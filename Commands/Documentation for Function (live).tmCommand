@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>grep -E -n -r --include=\*.php --exclude=.svn "function ${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}\w+\s*\(" ${TM_PROJECT_DIRECTORY:-$TM_DIRECTORY}</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~h</string>
+	<key>name</key>
+	<string>Documentation for Function (live)</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>scope.php</string>
+	<key>uuid</key>
+	<string>F2B31A24-0AB1-4177-93FC-8865C7776A1F</string>
+</dict>
+</plist>

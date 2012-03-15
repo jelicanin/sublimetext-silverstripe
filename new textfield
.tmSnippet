@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new TextField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}")),</string>
+	<key>name</key>
+	<string>new textfield
+</string>
+	<key>tabTrigger</key>
+	<string>newtf</string>
+	<key>uuid</key>
+	<string>3D183B3B-56C0-4ABB-B879-4BD467126307</string>
+</dict>
+</plist>

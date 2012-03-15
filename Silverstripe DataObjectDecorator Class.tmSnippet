@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+
+class ${TM_FILENAME/(.*?)\..../$1/} extends DataObjectDecorator {
+
+	function extraStatics() {
+		return array(
+			'db' =&gt; array(
+				${0}
+			),
+		);
+	}
+
+	public function updateCMSFields(FieldSet &amp;\$fields) {
+
+	}
+
+	function contentControllerInit(){
+	}
+
+}
+</string>
+	<key>name</key>
+	<string>Silverstripe DataObjectDecorator Class</string>
+	<key>scope</key>
+	<string>text.html.ss</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>88DBEA34-2088-4346-AFDF-B0E5795197DE</string>
+</dict>
+</plist>

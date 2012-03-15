@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>### SILVERSTRIPE START ###
+&lt;Files *.ss&gt;
+    Order deny,allow
+    Deny from all
+    Allow from 127.0.0.1
+&lt;/Files&gt;
+
+&lt;Files web.config&gt;
+    Order deny,allow
+    Deny from all
+&lt;/Files&gt;
+
+ErrorDocument 404 /assets/error-404.html
+ErrorDocument 500 /assets/error-500.html
+
+&lt;IfModule mod_alias.c&gt;
+    RedirectMatch 403 /silverstripe-cache(/|$)
+&lt;/IfModule&gt;
+
+&lt;IfModule mod_rewrite.c&gt;
+    SetEnv HTTP_MOD_REWRITE On
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{REQUEST_URI} ^(.*)$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* sapphire/main.php?url=%1&amp;%{QUERY_STRING} [L]
+&lt;/IfModule&gt;
+### SILVERSTRIPE END ###
+</string>
+	<key>name</key>
+	<string>htaccess</string>
+	<key>tabTrigger</key>
+	<string>ht</string>
+	<key>uuid</key>
+	<string>1E49CA38-2147-4F21-A652-4CA004103506</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new ImageField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}"),null,null,null,"assets/${TM_FILENAME/(.*?)\..../$1/}s/")</string>
+	<key>name</key>
+	<string>imagefield</string>
+	<key>tabTrigger</key>
+	<string>newimg</string>
+	<key>uuid</key>
+	<string>18A85D29-2BA9-437D-98C9-CDE79DD75B2F</string>
+</dict>
+</plist>

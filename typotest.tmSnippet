@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;h1&gt;Instructions for Typography Test Page&lt;/h1&gt;
+&lt;p&gt;
+	This page allows you to review typographic formatting for this website.
+	This directly relates to the areas that are editable in the Content Management System.
+	While the options and configurations are endless, most websites require the following minimum elements:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;heading one through to heading six where heading one is the most important one (e.g. page title) and heading six the &lt;i&gt;smallest&lt;/i&gt; heading.&lt;/li&gt;
+	&lt;li&gt;paragraphs&lt;/li&gt;
+	&lt;li&gt;bulleted lists&lt;/li&gt;
+	&lt;li&gt;numbered lists&lt;/li&gt;
+	&lt;li&gt;blockquote (i.e. a longer quote)&lt;/li&gt;
+	&lt;li&gt;address&lt;/li&gt;
+	&lt;li&gt;horizontal line&lt;/li&gt;
+	&lt;li&gt;pre-formatted text (e.g. recipes, computer code)&lt;/li&gt;
+	&lt;li&gt;tables with table heading (e.g. will show the word "cost") and table data cells (e.g. will show "$14")&lt;/li&gt;
+	&lt;li&gt;images and whether they break up text, or that the text wraps around it to either the left or the right.&lt;/li&gt;
+	&lt;li&gt;bold, italics, and underline - e.g. bold can actually be achieved by having a different colour rather than bold text&lt;/li&gt;
+	&lt;li&gt;links: new, visited, active (currently being clicked on) and hovered (mouse is current hovering over link) ones, to within site and to other sites&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	Each of these elements can have the following (basic selection - there are lots more!) formatting rules applied:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;colour of font&lt;/li&gt;
+	&lt;li&gt;background-color&lt;/li&gt;
+	&lt;li&gt;padding and margins around elements&lt;/li&gt;
+	&lt;li&gt;borders (thickness, colours, styles)&lt;/li&gt;
+	&lt;li&gt;font-size&lt;/li&gt;
+	&lt;li&gt;line-height&lt;/li&gt;
+	&lt;li&gt;first letter / first word alternative format&lt;/li&gt;
+	&lt;li&gt;text-alignment (e.g. justified, left, right)&lt;/li&gt;
+	&lt;li&gt;all uppercase, all lowercase or capitalised (each word starts with a capital)&lt;/li&gt;
+	&lt;li&gt;italic, bold, underlined or strikken through (looks like deleted text).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	Below is a variety of styles that you may use in your SilverStripe Content Management System.
+	The styles should look the same (or similar) in your Content Management System as they do on this page.
+	Special formats are interspersed with a paragraph as this is a more normal typographic setting than having heading after heading after heading.
+	Each start of a new section will tell you what to look for.
+	Make sure to also check for the &lt;i&gt;within paragraph&lt;/i&gt; formatting.
+&lt;/p&gt;
+&lt;p&gt;
+	At the bottom of this page, you will also find the most common form elements and their proposed formatting.
+&lt;/p&gt;
+&lt;p&gt;
+	It is important to remember that the page below only focusses on typography (writing) and not on the design of the page as a whole (e.g. where the menu goes, how wide the page is, etc...)
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;p&gt;these are horizontal lines&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3&gt;bold, italic, underline, and links&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;bold 1&lt;/strong&gt;, &lt;b&gt;bold 2&lt;/b&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;u&gt;underlined&lt;/u&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;em&gt;italics 1&lt;/em&gt; or &lt;i&gt;italics 2&lt;/i&gt; &lt;/li&gt;
+	&lt;li&gt;&lt;a href="home"&gt;internal link&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://www.sunnysideup.co.nz"&gt;external link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;paragraph with images and linked images&lt;/h2&gt;
+&lt;p&gt;
+	&lt;a href="home"&gt;&lt;img src="cms/images/loading.gif" alt="loading image" width="150" height="150" /&gt;&lt;/a&gt;
+	In in purus eget mauris fringilla placerat.
+	Proin pellentesque fermentum dui.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+	In ipsum arcu, sodales commodo, elementum at, euismod nec, felis.
+	Vestibulum laoreet, felis at vulputate posuere, tellus lorem ornare ante, eget commodo magna metus vitae mauris.
+	Aliquam et enim.
+	Integer vel erat sit amet nulla feugiat scelerisque.
+	Fusce ornare molestie mauris.
+	Aliquam a leo quis eros mollis varius.
+	Quisque egestas velit ac dui.
+	Quisque eu purus vel risus tincidunt dictum.
+	Curabitur sit amet turpis id leo vestibulum imperdiet.
+	Suspendisse mollis ultrices nulla.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;img src="cms/images/loading.gif" alt="loading image" width="150" height="150" class="right" /&gt;
+	In in purus eget mauris fringilla placerat.
+	Proin pellentesque fermentum dui.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+	In ipsum arcu, sodales commodo, elementum at, euismod nec, felis.
+	Vestibulum laoreet, felis at vulputate posuere, tellus lorem ornare ante, eget commodo magna metus vitae mauris.
+	Aliquam et enim.
+	Integer vel erat sit amet nulla feugiat scelerisque.
+	Fusce ornare molestie mauris.
+	Aliquam a leo quis eros mollis varius.
+	Quisque egestas velit ac dui.
+	Quisque eu purus vel risus tincidunt dictum.
+	Curabitur sit amet turpis id leo vestibulum imperdiet.
+	Suspendisse mollis ultrices nulla.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;img src="cms/images/loading.gif" alt="loading image" width="150" height="150" class="left" /&gt;
+	In in purus eget mauris fringilla placerat.
+	Proin pellentesque fermentum dui.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+	In ipsum arcu, sodales commodo, elementum at, euismod nec, felis.
+	Vestibulum laoreet, felis at vulputate posuere, tellus lorem ornare ante, eget commodo magna metus vitae mauris.
+	Aliquam et enim.
+	Integer vel erat sit amet nulla feugiat scelerisque.
+	Fusce ornare molestie mauris.
+	Aliquam a leo quis eros mollis varius.
+	Quisque egestas velit ac dui.
+	Quisque eu purus vel risus tincidunt dictum.
+	Curabitur sit amet turpis id leo vestibulum imperdiet.
+	Suspendisse mollis ultrices nulla.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+&lt;/p&gt;
+&lt;h1&gt;heading one above colour table&lt;/h1&gt;
+&lt;p&gt;
+	The table below can show the ten main colours for your site.
+	In order to do so, they must be specified by a coder in your typography.css file (using td.colour1{background-color: YourColour1Here;}, td.colour2{background-color: YourColour2Here;}, etc...).
+&lt;/p&gt;
+&lt;h1&gt;Colour Blocks&lt;/h1&gt;
+&lt;p&gt;The blocks below can help you identify the colours for the current website.&lt;/p&gt;
+&lt;table id="colourTable" summary="colour table"&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td class="colourCell backgroundcolour1"&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td class="colourCell backgroundcolour2"&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td class="colourCell backgroundcolour3"&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="colourCell backgroundcolour4"&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td class="colourCell backgroundcolour5"&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td style="background-color: #fff!important;"&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="fontcolour1"&gt;Cras a condimentum quam. Etiam nisi leo, luctus nec tincidunt vel, tristique vitae quam. Mauris non mi leo.  &lt;/p&gt;
+&lt;p class="fontcolour2"&gt;Donec sit amet massa sit amet massa molestie ornare id ut dolor&lt;/p&gt;
+&lt;p class="fontcolour3"&gt;In laoreet libero in nunc bibendum iaculis.&lt;/p&gt;
+&lt;p class="fontcolour4"&gt;Proin ac odio quam. Ut pretium odio vitae est dignissim dignissim..&lt;/p&gt;
+&lt;p class="fontcolour5"&gt;Aenean sed lobortis felis.&lt;/p&gt;
+&lt;h1&gt;example of heading 1&lt;/h1&gt;
+&lt;p&gt;
+	This is an example of a couple of left-align paragraphs with &lt;strong&gt;bold&lt;/strong&gt;, &lt;u&gt;underlined&lt;/u&gt;, and &lt;em&gt;italics&lt;/em&gt; in it.
+	It also contains some inline formatting styles (such as bold and italics - see below) Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	justo quam fermentum ligula, vel hendrerit est sem a orci.
+	porttitor nec, fringilla et, massa.
+	Integer turpis.
+	Etiam sed dolor.
+	Aenean non tellus.
+	Fusce cursus ornare tortor.
+	Nullam risus.
+	Suspendisse quam.
+	Donec varius semper ipsum.
+	Morbi iaculis dolor eget elit.
+	Cras velit dui, rhoncus ut, placerat non, porta a, neque.
+	Morbi luctus eros ac mauris.
+	Cras sed quam.
+	Etiam sed quam sit amet nisl viverra iaculis.
+	Etiam mattis, est eu ornare varius, dui ligula mattis erat, in condimentum orci turpis et neque.
+	Integer odio sapien, pulvinar quis, consequat a, pretium at, tortor.
+	&lt;em&gt;italicized&lt;/em&gt; Nunc mattis blandit erat.
+	&lt;u&gt;Underline&lt;/u&gt; Phasellus auctor,
+	&lt;strong&gt;bold&lt;/strong&gt;, Donec.
+	Aliquam a leo quis eros mollis varius.
+	Quisque egestas velit ac dui.
+	Quisque eu purus vel risus tincidunt dictum.
+	Curabitur sit amet turpis id leo vestibulum imperdiet.
+	Suspendisse mollis ultrices nulla.
+	Donec at sapien eget turpis dictum tempus.
+	Nulla rutrum, leo nec ornare rhoncus, augue neque venenatis urna, sit amet consequat leo nisl ut erat.
+	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vitae nunc sed magna accumsan consectetuer.
+	Vestibulum volutpat.
+&lt;/p&gt;
+&lt;h2&gt;example of heading 2&lt;/h2&gt;
+&lt;p&gt;
+	Below is an unordered (bulleted) list
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	Cras luctus fringilla lorem.
+	Donec scelerisque augue non orci.
+	&lt;/li&gt;
+	&lt;li&gt;
+	Phasellus felis nunc, mollis nec, laoreet a, facilisis a, dui.
+	Vivamus venenatis malesuada tortor.
+	Curabitur aliquam sapien ac risus.
+	Integer elementum.
+	Vestibulum ornare felis sed quam.
+	Donec tempor scelerisque nisi.
+	Nulla facilisi.
+	Donec porttitor.
+	Morbi et sapien.
+	&lt;/li&gt;
+	&lt;li&gt;
+	In feugiat consectetuer lectus.
+	Cras lacinia elit nec libero.
+	&lt;/li&gt;
+	&lt;li&gt;
+	Sed id ante in nisi faucibus tristique.
+	Suspendisse laoreet.
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+	Below is an unordered (bulleted) list within a list...
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Cras luctus fringilla lorem.
+		Donec scelerisque augue non orci.
+		&lt;ul&gt;
+			&lt;li&gt;
+				Cras luctus fringilla lorem.
+				Donec scelerisque augue non orci.
+			&lt;/li&gt;
+			&lt;li&gt;
+				Phasellus felis nunc, mollis nec, laoreet a, facilisis a, dui.
+				Vivamus venenatis malesuada tortor.
+				Curabitur aliquam sapien ac risus.
+				Integer elementum.
+				Vestibulum ornare felis sed quam.
+				Donec tempor scelerisque nisi.
+				Nulla facilisi.
+				Donec porttitor.
+				Morbi et sapien.
+				&lt;ul&gt;
+					&lt;li&gt;
+						Cras luctus fringilla lorem.
+						Donec scelerisque augue non orci.
+					&lt;/li&gt;
+					&lt;li&gt;
+						Phasellus felis nunc, mollis nec, laoreet a, facilisis a, dui.
+						Vivamus venenatis malesuada tortor.
+						Curabitur aliquam sapien ac risus.
+						Integer elementum.
+						Vestibulum ornare felis sed quam.
+						Donec tempor scelerisque nisi.
+						Nulla facilisi.
+						Donec porttitor.
+						Morbi et sapien.
+					&lt;/li&gt;
+					&lt;li&gt;
+						In feugiat consectetuer lectus.
+						Cras lacinia elit nec libero.
+					&lt;/li&gt;
+					&lt;li&gt;
+						Sed id ante in nisi faucibus tristique.
+						Suspendisse laoreet.
+						&lt;ul&gt;
+							&lt;li&gt;
+								Donec scelerisque augue non orci.
+							&lt;/li&gt;
+							&lt;li&gt;
+								Donec porttitor.
+								Morbi et sapien.
+							&lt;/li&gt;
+							&lt;li&gt;
+								Cras lacinia elit nec libero.
+							&lt;/li&gt;
+							&lt;li&gt;
+								Suspendisse laoreet.
+							&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				In feugiat consectetuer lectus.
+				Cras lacinia elit nec libero.
+			&lt;/li&gt;
+			&lt;li&gt;
+				Sed id ante in nisi faucibus tristique.
+				Suspendisse laoreet.
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		Phasellus felis nunc, mollis nec, laoreet a, facilisis a, dui.
+		Vivamus venenatis malesuada tortor.
+		Curabitur aliquam sapien ac risus.
+		Integer elementum.
+		Vestibulum ornare felis sed quam.
+		Donec tempor scelerisque nisi.
+		Nulla facilisi.
+		Donec porttitor.
+		Morbi et sapien.
+	&lt;/li&gt;
+	&lt;li&gt;
+		In feugiat consectetuer lectus.
+		Cras lacinia elit nec libero.
+	&lt;/li&gt;
+	&lt;li&gt;
+		Sed id ante in nisi faucibus tristique.
+		Suspendisse laoreet.
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Elements within elements...&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;h1&gt;heading 1: The quick brown fox jumps over the lazy dog&lt;/h1&gt;&lt;/li&gt;
+ 	&lt;li&gt;List item with no elements within it.&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;h2&gt;heading 2: The quick brown fox jumps over the lazy dog&lt;/h2&gt;&lt;/li&gt;
+ 	&lt;li&gt;List item with no elements within it.&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;h3&gt;heading 3: The quick brown fox jumps over the lazy dog&lt;/h3&gt;&lt;/li&gt;
+ 	&lt;li&gt;List item with no elements within it.&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+ 	&lt;li&gt;&lt;h4&gt;heading 4: The quick brown fox jumps over the lazy dog&lt;/h4&gt;&lt;/li&gt;
+ 	&lt;li&gt;List item with no elements within it.&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;h5&gt;heading 5: The quick brown fox jumps over the lazy dog&lt;/h5&gt;&lt;/li&gt;
+ 	&lt;li&gt;List item with no elements within it.&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;h6&gt;heading 6: The quick brown fox jumps over the lazy dog&lt;/h6&gt;&lt;/li&gt;
+ 	&lt;li&gt;List item with no elements within it.&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;h1&gt;Extra LI LI heading 1: The quick brown fox jumps over the lazy dog&lt;/h1&gt;&lt;/li&gt;
+			&lt;li&gt;Extra LI LI List item with no elements within it.&lt;/li&gt;
+			&lt;li&gt;&lt;p&gt;Extra LI LI Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;h2&gt;Extra LI LI heading 2: The quick brown fox jumps over the lazy dog&lt;/h2&gt;&lt;/li&gt;
+			&lt;li&gt;Extra LI LI List item with no elements within it.&lt;/li&gt;
+			&lt;li&gt;&lt;p&gt;Extra LI LI Paragraph &lt;span&gt;span in a paragraph&lt;/span&gt; heading 1: The quick brown fox jumps over the lazy dog&lt;/p&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	In in purus eget mauris fringilla placerat.
+	Proin pellentesque fermentum dui.
+	Donec tortor sapien, condimentum a, iaculis at, faucibus id, pede.
+	Proin ultrices sagittis metus.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Proin ultrices nulla id enim.
+	Nullam mi.
+	In ipsum arcu, sodales commodo, elementum at, euismod nec, felis.
+	Vestibulum laoreet, felis at vulputate posuere, tellus lorem ornare ante, eget commodo magna metus vitae mauris.
+	Aliquam et enim.
+	Integer vel erat sit amet nulla feugiat scelerisque.
+	Fusce ornare molestie mauris.
+	Integer erat.
+	Integer pulvinar cursus dolor.
+	Nunc interdum.
+&lt;/p&gt;
+
+&lt;h3&gt;example of heading 3&lt;/h3&gt;
+&lt;p&gt;
+	Below is an ordered (numbered) list:
+&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;
+		Cras luctus fringilla lorem.
+		Donec scelerisque augue non orci.
+	&lt;/li&gt;
+	&lt;li&gt;
+		Phasellus felis nunc, mollis nec, laoreet a, facilisis a, dui.
+		Vivamus venenatis malesuada tortor.
+		Curabitur aliquam sapien ac risus.
+		Integer elementum.
+		Vestibulum ornare felis sed quam.
+		Donec tempor scelerisque nisi.
+		Nulla facilisi.
+		Donec porttitor.
+		Morbi et sapien.
+	&lt;/li&gt;
+	&lt;li&gt;
+		In feugiat consectetuer lectus.
+		Cras lacinia elit nec libero.
+		&lt;ol&gt;
+			&lt;li&gt;
+				In feugiat consectetuer lectus.
+				Cras lacinia elit nec libero.
+			&lt;/li&gt;
+		&lt;/ol&gt;
+		&lt;ol&gt;
+			&lt;li&gt;
+				In consectetuer lectus.
+				Cras nec libero.
+				&lt;ol&gt;
+					&lt;li&gt;
+						In feugiat consectetuer lectus.
+						Cras lacinia elit nec libero.
+						&lt;ol&gt;
+							&lt;li&gt;
+								In feugiat consectetuer lectus.
+								Cras lacinia elit nec libero.
+							&lt;/li&gt;
+						&lt;/ol&gt;
+						&lt;ol&gt;
+							&lt;li&gt;
+								In feugiat consectetuer lectus.
+								Cras lacinia elit nec libero.
+							&lt;/li&gt;
+						&lt;/ol&gt;
+						&lt;ol&gt;
+							&lt;li&gt;
+								In feugiat consectetuer lectus.
+								Cras lacinia elit nec libero.
+							&lt;/li&gt;
+						&lt;/ol&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;ol&gt;
+					&lt;li&gt;
+						In feugiat consectetuer lectus.
+						Cras lacinia elit nec libero.
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		Sed id ante in nisi faucibus tristique.
+		Suspendisse laoreet.
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+	Vivamus id diam nec quam bibendum dapibus.
+	Nam non nunc ac metus dapibus varius.
+	Phasellus tempor metus nec quam ornare tempor.
+	Maecenas vitae ligula.
+	Maecenas id mi.
+	Mauris ut justo.
+	Integer et est.
+	Integer tempus convallis est.
+	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc id nulla non mauris lacinia varius.
+	Suspendisse potenti.
+	Nam accumsan elit eu orci.
+	Donec mollis, libero et porttitor imperdiet, est lorem pulvinar libero, id commodo quam mi vitae elit.
+	Quisque ac odio id ante semper tincidunt.
+	Quisque ultrices eros egestas augue.
+	Sed augue purus, sagittis et, bibendum quis, tincidunt ut, risus.
+	Ut gravida sodales nisi.
+	Morbi pede.
+&lt;/p&gt;
+&lt;h4&gt;example of heading 4&lt;/h4&gt;
+&lt;p&gt;
+	Below is an example of a simple table.
+	There is a myriad of more sophisticated formatting you can apply to tables.
+	Shown here are cell headings and standard cells.
+&lt;/p&gt;
+&lt;table summary="test table"&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;th&gt;table col heading 1 + row heading 0&lt;/th&gt;
+		&lt;th&gt;table heading 1&lt;/th&gt;
+		&lt;th&gt;table heading 2&lt;/th&gt;
+		&lt;th&gt;table heading 3&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th&gt;table row heading 1&lt;/th&gt;
+		&lt;td&gt;cell 1&lt;/td&gt;
+		&lt;td&gt;&lt;p&gt;paragraph in a cell&lt;/p&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;ul&gt;&lt;li&gt;list item in a cell&lt;/li&gt;&lt;li&gt;list item in a cell&lt;/li&gt;&lt;li&gt;list item in a cell&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th&gt;table row heading 2&lt;/th&gt;
+		&lt;td&gt;cell 1&lt;/td&gt;
+		&lt;td&gt;&lt;p&gt;paragraph in a cell Sed augue purus, sagittis et, bibendum quis, tincidunt ut, risus.&lt;/p&gt;&lt;/td&gt;
+		&lt;td&gt;cell 3&lt;/td&gt; &lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th&gt;table row heading 3&lt;/th&gt;
+		&lt;td&gt;cell 1&lt;/td&gt;
+		&lt;td&gt;cell 2&lt;/td&gt;
+		&lt;td&gt;cell 3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5&gt;example of heading 5 - other formats&lt;/h5&gt;
+&lt;p&gt;
+	Here are some examples of other formats.
+	Firstly, here is the address format (you will have to add linebreaks):
+&lt;/p&gt;
+&lt;address&gt;
+	The Addressee
+	&lt;br /&gt; PO Box 1234
+	&lt;br /&gt; Postal Town 5555
+	&lt;br /&gt; New Zealand / Aotearoa
+&lt;/address&gt;
+&lt;pre&gt;Here is an example of the pre-formatted tag.  This is used for things like computer code and recipes.&lt;/pre&gt;
+&lt;p&gt;
+	Donec mollis, libero et porttitor imperdiet, est lorem pulvinar libero, id commodo quam mi vitae elit.
+	Quisque ac odio id ante semper tincidunt.
+	Quisque ultrices eros egestas augue.
+	Sed augue purus, sagittis et, bibendum quis, tincidunt ut, risus.
+	Ut gravida sodales nisi.
+	Morbi pede.
+&lt;/p&gt;
+&lt;h1&gt;block quote below (for a larger quote)...&lt;/h1&gt;
+&lt;blockquote&gt;
+	&lt;p&gt;
+		Ut vulputate ante.
+		Maecenas nec est.
+		Nullam id leo in sapien commodo hendrerit.
+		Nam tincidunt augue quis neque.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		Nulla lobortis. In ante nunc, consequat non, placerat vel, auctor ac, magna.
+		In eget mi.
+		Sed hendrerit.
+		Integer fringilla, metus in adipiscing venenatis, nisi metus scelerisque magna, id fringilla dolor diam ac ligula.
+		Nulla consequat nunc id sem.
+	&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;and here is some quoted text (for a smaller quote)&lt;/h1&gt;
+&lt;p&gt;
+	Ut vulputate ante.
+	&lt;q&gt;Quote goes here&lt;/q&gt;
+	Maecenas nec est.
+	Nullam id leo in sapien commodo hendrerit.
+	Nam tincidunt augue quis neque.
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	Nulla lobortis. In ante nunc, consequat non, placerat vel, auctor ac, magna.
+	In eget mi.
+	Sed hendrerit.
+	&lt;q&gt;Another quote here...&lt;/q&gt;
+	Integer fringilla, metus in adipiscing venenatis, nisi metus scelerisque magna, id fringilla dolor diam ac ligula.
+	Nulla consequat nunc id sem.
+&lt;/p&gt;
+
+
+&lt;h6&gt;example of heading 6&lt;/h6&gt;
+&lt;p style="text-align: center!important;"&gt;
+	Here is an example of a centered paragraph.
+	Duis libero enim, dapibus sed, iaculis et, rutrum ac, metus.
+	Donec convallis molestie risus.
+	Etiam ut diam at tellus consequat euismod.
+	Nullam odio tortor, cursus quis, interdum eu, faucibus quis, enim.
+	Suspendisse eros mi, porta sit amet, luctus a, malesuada non, ligula.
+	Nam velit lectus, ultrices id, vestibulum id, malesuada id, lectus.
+	Aliquam erat.
+	Etiam facilisis.
+	Vivamus lorem lectus, fringilla at, rutrum vel, suscipit non, velit.
+	Nullam lorem neque, suscipit ac, faucibus ut, dictum a, enim.
+	Phasellus vestibulum augue et tellus.
+	Suspendisse sollicitudin sem vitae magna.
+	Sed dignissim nisi eget odio.
+	Nullam massa.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Nullam sed tortor.
+	Aenean tellus est, bibendum non, fringilla in, eleifend vitae, erat.
+&lt;/p&gt;
+&lt;h6&gt;example of heading 6&lt;/h6&gt;
+&lt;p style="text-align: right!important;"&gt;
+	Here is an example of a right-aligned paragraph.
+	Duis libero enim, dapibus sed, iaculis et, rutrum ac, metus.
+	Donec convallis molestie risus.
+	Etiam ut diam at tellus consequat euismod.
+	Nullam odio tortor, cursus quis, interdum eu, faucibus quis, enim.
+	Suspendisse eros mi, porta sit amet, luctus a, malesuada non, ligula.
+	Nam velit lectus, ultrices id, vestibulum id, malesuada id, lectus.
+	Aliquam erat.
+	Etiam facilisis.
+	Vivamus lorem lectus, fringilla at, rutrum vel, suscipit non, velit.
+	Nullam lorem neque, suscipit ac, faucibus ut, dictum a, enim.
+	Phasellus vestibulum augue et tellus.
+	Suspendisse sollicitudin sem vitae magna.
+	Sed dignissim nisi eget odio.
+	Nullam massa.
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	Nullam sed tortor.
+	Aenean tellus est, bibendum non, fringilla in, eleifend vitae, erat.
+&lt;/p&gt;
+&lt;h1&gt;heading 1: The quick brown fox jumps over the lazy dog&lt;/h1&gt;
+&lt;h2&gt;heading 2: The quick brown fox jumps over the lazy dog&lt;/h2&gt;
+&lt;h3&gt;heading 3: The quick brown fox jumps over the lazy dog&lt;/h3&gt;
+&lt;h4&gt;heading 4: The quick brown fox jumps over the lazy dog&lt;/h4&gt;
+&lt;h5&gt;heading 5: The quick brown fox jumps over the lazy dog&lt;/h5&gt;
+&lt;h6&gt;heading 6: The quick brown fox jumps over the lazy dog&lt;/h6&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+</string>
+	<key>name</key>
+	<string>typotest</string>
+	<key>tabTrigger</key>
+	<string>typotest</string>
+	<key>uuid</key>
+	<string>05FEBF09-AEA2-4965-9A6B-631FFB341270</string>
+</dict>
+</plist>

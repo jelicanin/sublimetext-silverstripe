@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$record = DataObject::get_one(${1:\$obj}, ${2:\$filter});
+</string>
+	<key>name</key>
+	<string>DataObject Get_ONE</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>doget</string>
+	<key>uuid</key>
+	<string>EC8791FA-B43D-4575-B2B2-875FD5C71BA6</string>
+</dict>
+</plist>

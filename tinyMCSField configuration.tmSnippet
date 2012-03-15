@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SimpleTinyMCEField::set_default_buttons(array('bold,italic,underline,pastetext,|,link,unlink,bullist,numlist,|,formatselect,|,code'));
+</string>
+	<key>name</key>
+	<string>tinyMCSField configuration</string>
+	<key>tabTrigger</key>
+	<string>tinyconf</string>
+	<key>uuid</key>
+	<string>DF8589B8-7384-42A3-9ADE-CFEE7E4405EF</string>
+</dict>
+</plist>
