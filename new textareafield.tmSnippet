@@ -5,8 +5,7 @@
 	<key>content</key>
 	<string>new TextareaField('${2}',_t('${TM_FILENAME/(.*?)\..../$1/}.${2/.*/\U$0\E/}',"${3:English default text}"));</string>
 	<key>name</key>
-	<string>new textareafield
- copy</string>
+	<string>new textareafield</string>
 	<key>tabTrigger</key>
 	<string>newta</string>
 	<key>uuid</key>
