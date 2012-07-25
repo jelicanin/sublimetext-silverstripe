@@ -12,12 +12,14 @@ class ${TM_FILENAME/(.*?)\..../$1/} extends DataObject {
 	static \$db = array(
 		
 	);
+
+	static \$has_one = array(
+		
+	);
 }
 </string>
 	<key>name</key>
 	<string>Silverstripe DataObject Class</string>
-	<key>scope</key>
-	<string>text.html.ss</string>
 	<key>tabTrigger</key>
 	<string>class</string>
 	<key>uuid</key>
